@@ -10,3 +10,6 @@ Colorpicker field for Ext Js, an extension of similar functionality originally c
   luminanceImg:'images/luminance.png',
   spectrumImg:'images/luminance.png'
 });
+
+
+Requires <canvas> support.
