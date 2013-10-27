@@ -12,4 +12,4 @@ Colorpicker field for Ext Js, an extension of similar functionality originally c
 });
 
 
-Requires <canvas> support.
+Requires canvas support.
