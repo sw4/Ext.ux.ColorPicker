@@ -5,12 +5,12 @@ Ext.ux.ColorPicker
 
 
 Colorpicker field for Ext Js, an extension of similar functionality originally coded by Ryan Petrello in 2011. To use, simply add references to the JS and CSS scripts in your page. A color picker field can then be created using Ext.create('Ext.ux.ColorPicker'); You will need to also specify the location of the luminance and spectrum.png images, by setting the luminanceImg and spectrumImg properties on the object (or replacing the two related incidences in the main JS). E.g. 
-
+```
 Ext.create('Ext.ux.ColorPicker', {
   luminanceImg:'images/luminance.png',
   spectrumImg:'images/luminance.png'
 });
-
+```
 
 Requires canvas support and is based on a standard Ext triggerfield, so supports all native properties.
 
@@ -18,7 +18,7 @@ Requires canvas support and is based on a standard Ext triggerfield, so supports
 Sample Use
 ==================
 
-
+```
 <!doctype html>
 <html lang="en">
 	<head>
@@ -33,13 +33,14 @@ Sample Use
 	</head>
 	<body></body>
 </html>
-
+```
 
 Sample Use Within your Ext JS Application
 ==========================================
-
+```
 Ext.create('Ext.ux.ColorPicker', {
   luminanceImg:'images/luminance.png',
   spectrumImg:'images/luminance.png',
   value:'#ff0000'
 });
+```
