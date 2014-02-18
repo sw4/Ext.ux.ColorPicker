@@ -1,16 +1,9 @@
 Ext.ux.ColorPicker
 ==================
 
-Ext.ux.ColorPicker
-
-
 HTML5 colorpicker field for Ext JS, extending functionality originally coded by Ryan Petrello in 2011. 
 
-USAGE:
-1. Add references to the JS and CSS scripts in your page. 
-2. Create color picker field using Ext.create('Ext.ux.ColorPicker'); 
-
-You will need to also specify the location of the luminance and spectrum.png images, by setting the luminanceImg and spectrumImg properties on the object (or replacing the two related incidences in the main JS). E.g. 
+Specify the location of the luminance and spectrum.png images, by setting the luminanceImg and spectrumImg properties on the object (or replacing the two related incidences in the main JS). E.g. 
 
 ```
 Ext.create('Ext.ux.ColorPicker', {
