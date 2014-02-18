@@ -4,7 +4,7 @@ Ext.ux.ColorPicker
 Ext.ux.ColorPicker
 
 
-HTML5 colorpicker field for Ext JS, etending functionality originally coded by Ryan Petrello in 2011. 
+HTML5 colorpicker field for Ext JS, extending functionality originally coded by Ryan Petrello in 2011. 
 
 USAGE:
 1. Add references to the JS and CSS scripts in your page. 
