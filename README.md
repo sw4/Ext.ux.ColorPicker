@@ -1,6 +1,8 @@
 Ext.ux.ColorPicker
 ==================
 
+**Licensed under [cc by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/) with attribution required**
+
 HTML5 colorpicker field for Ext JS, extending functionality originally coded by Ryan Petrello in 2011. 
 
 Specify the location of the luminance and spectrum.png images, by setting the luminanceImg and spectrumImg properties on the object (or replacing the two related incidences in the main JS). E.g. 
