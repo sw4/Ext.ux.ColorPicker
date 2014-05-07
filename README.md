@@ -7,6 +7,15 @@ HTML5 colorpicker field for Ext JS, extending functionality originally coded by 
 
 Live demo can be viewed here: http://sw4.github.io/Ext.ux.ColorPicker
 
+Requiremenets
+=====
+
+Requires ExtJS JS and CSS to be referenced in your page.*
+
+<sup>*Currently only tested in ExtJS 4.2x</sup>
+
+Usage 
+=======
 Specify the location of the luminance and spectrum.png images, by setting the luminanceImg and spectrumImg properties on the object (or replacing the two related incidences in the main JS). E.g. 
 
 ```
@@ -19,30 +28,39 @@ Ext.create('Ext.ux.ColorPicker', {
 Requires canvas support and is based on a standard Ext triggerfield, so supports all native properties.
 
 
-Sample Use
+Sample HTML Page
 ==================
 
 ```
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">	
-		<!-- Link to EXT JS Theme -->
-		<link rel="stylesheet" href="theme.css ">	
-		<!-- Link to ExtJS library -->
-		<script src="ext-all.js"></script>
-		<!-- Link to Ext JS ColorPicker  -->
-		<script src="Ext.ux.ColorPicker.min.js"></script>
-		<link rel="stylesheet" href="Ext.ux.ColorPicker.min.css">
-	</head>
-	<body></body>
+    <head>
+        <title>Ext.ux.ColorPicker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <!-- gh-pages CSS -->
+        <link href="https://rawgithub.com/sw4/gh-pages/master/styles.css" rel="stylesheet">
+        <!-- Ext.ux.ColorPicker CSS -->
+        <link href="https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/Ext.ux.ColorPicker.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Ext.ux.ColorPicker</h1>
+        <p>Note: This specific example will not work correctly due to the fact assets are loaded cross-domain (from rawgithub.com) which contravenes canvas security policy.</p>
+        <div id="colorPicker"></div>
+        <!-- Ext JS -->
+        <script src="http://docs.sencha.com/extjs/4.2.1/extjs-build/examples/shared/include-ext.js"></script>        
+        <!-- Ext.ux.ColorPicker JS -->
+        <script src="https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/Ext.ux.ColorPicker.js"></script>
+        <script> 
+        Ext.onReady(function() {
+            var colorPicker = Ext.create('Ext.ux.ColorPicker', {
+                luminanceImg:'https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/luminance.png',
+                spectrumImg:'https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/spectrum.png',
+                value:'#ff0000'
+            });
+            colorPicker.render('colorPicker');
+        });        
+        </script>
+    </body>
 </html>
-```
-
-```
-Ext.create('Ext.ux.ColorPicker', {
-  luminanceImg:'images/luminance.png',
-  spectrumImg:'images/luminance.png',
-  value:'#ff0000'
-});
 ```
