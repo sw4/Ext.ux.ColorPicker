@@ -1,7 +1,7 @@
 Ext.ux.ColorPicker
 ==================
 
-HTML5 colorpicker field for Ext JS. 
+Ext JS 4.2x Color Picker Field
 
 **Licensed under [cc by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/) with attribution required**
 
