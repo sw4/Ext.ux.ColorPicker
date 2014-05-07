@@ -10,7 +10,7 @@ Live demo can be viewed here: http://sw4.github.io/Ext.ux.ColorPicker
 Requiremenets
 =====
 
-Requires ExtJS JS and CSS to be referenced in your page.*
+Requires canvas support and is based on a standard Ext triggerfield, so supports all native properties. Requires ExtJS JS and CSS to be referenced in your page.*
 
 <sup>*Currently only tested in ExtJS 4.2x</sup>
 
@@ -25,7 +25,7 @@ Ext.create('Ext.ux.ColorPicker', {
 });
 ```
 
-Requires canvas support and is based on a standard Ext triggerfield, so supports all native properties.
+Additionally, you can pass a HEX color to `value` to initialize the field with a color already selected.
 
 
 Sample HTML Page
