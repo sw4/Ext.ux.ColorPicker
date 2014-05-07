@@ -38,8 +38,6 @@ Sample HTML Page
         <title>Ext.ux.ColorPicker</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta charset="utf-8">
-        <!-- gh-pages CSS -->
-        <link href="https://rawgithub.com/sw4/gh-pages/master/styles.css" rel="stylesheet">
         <!-- Ext.ux.ColorPicker CSS -->
         <link href="https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/Ext.ux.ColorPicker.css" rel="stylesheet">
     </head>
