@@ -7,7 +7,7 @@ HTML5 colorpicker field for Ext JS, extending functionality originally coded by 
 
 Live demo can be viewed here: http://sw4.github.io/Ext.ux.ColorPicker
 
-Requiremenets
+Requirements
 =====
 
 Requires canvas support and is based on a standard Ext triggerfield, so supports all native properties. Requires ExtJS JS and CSS to be referenced in your page.*
