@@ -1,0 +1,21 @@
+.Ext_ux_ColorPicker div {
+    height: 195px;
+    width: 195px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Ext_ux_ColorPicker div canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.Ext_ux_ColorPicker_spectrum {
+    z-index: 1;
+}
+
+.Ext_ux_ColorPicker_luminance {
+    z-index: 0;
+}
