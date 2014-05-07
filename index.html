@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Ext.ux.ColorPicker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <!-- Ext.ux.ColorPicker CSS -->
+        <link href="https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/Ext.ux.ColorPicker.min.css" rel="stylesheet">      
+    </head>
+    <body>
+    
+    
+        <h1>Form Field Types</h1>
+    <p>This example shows examples of the various supported form field types.</p>
+    <p>The js is not minified so it is readable. See <a href="field-types.js">field-types.js</a>.</p>
+
+    <div id="form-ct"></div>
+    
+    
+        <!-- jQuery -->
+        <script src="http://docs.sencha.com/extjs/4.2.1/extjs-build/examples/shared/include-ext.js"></script>        
+        <!-- Ext.ux.ColorPicker JS -->
+        <script src="https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/Ext.ux.ColorPicker.min.js"></script>
+        <script>       
+        
+        
+
+Ext.onReady(function() {
+
+    var formPanel = Ext.create('Ext.ux.ColorPicker', {
+  luminanceImg:'https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/luminance.png',
+  spectrumImg:'https://rawgithub.com/sw4/Ext.ux.ColorPicker/master/luminance.png',
+  value:'#ff0000'
+});;
+
+    formPanel.render('form-ct');
+
+});        
+        </script>
+    </body>
+</html>
