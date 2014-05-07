@@ -1,11 +1,11 @@
-[Ext.ux.ColorPicker](http://sw4.github.io/Ext.ux.ColorPicker)
+Ext.ux.ColorPicker
 ==================
 
 **Licensed under [cc by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/) with attribution required**
 
 HTML5 colorpicker field for Ext JS, extending functionality originally coded by Ryan Petrello in 2011. 
 
-Live demo can be viewed here: http://sw4.github.io/Ext.ux.ColorPicker
+**Live demo can be viewed here: http://sw4.github.io/Ext.ux.ColorPicker**
 
 Requirements
 =====
